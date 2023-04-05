@@ -76,7 +76,7 @@ def default():
   print(f" {orn}{ln}_{n}{gy} CTRL+C TO STOP")
   time.sleep(0.3)
   print(f"{bd} {ln} {orn}{ln}")
-  password_list_file = "passwords/1m_pass.txt"
+  password_list_file = "1m_pass.txt"
   password_list = open(password_list_file, "r").read().splitlines()
   counter = 1
   for password in password_list:
