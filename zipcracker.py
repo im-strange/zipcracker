@@ -64,6 +64,12 @@ except: exit(0)
 if is_exists(args.zipfile): pass
 else: print(f"{bd}[{red}INFO{bd}] file `{args.zipfile}` not found"), exit(0)
 
+if zipfile.is_zipfile(args.zipfile):
+  pass
+else:
+  print(f"{bd}[{red}INFO{bd}] file `{args.zipfile}` is not a zip.")
+  exit(0)
+
 main_zip = args.zipfile
 
 # <-- --default option -->
