@@ -11,4 +11,10 @@ pip install zipfile
 > usage: python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
                             [--randint START STOP] [--custom CUSTOM]
                             zipfile
-
+## Options
+> -h, --help            show this help message and exit
+  -d, --default         1 million common passwords
+  --randchar LENGTH RANGE
+                        random letters of given length
+  --randint START STOP  random numbers from 0 to given range
+  --custom CUSTOM       custom txt file
