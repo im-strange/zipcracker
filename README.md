@@ -12,9 +12,11 @@ pip install zipfile
                             [--randint START STOP] [--custom CUSTOM]
                             zipfile
 ## Options
-> -h, --help            show this help message and exit
-  -d, --default         1 million common passwords
-  --randchar LENGTH RANGE
+```
+-h, --help            show this help message and exit
+-d, --default         1 million common passwords
+--randchar LENGTH RANGE
                         random letters of given length
-  --randint START STOP  random numbers from 0 to given range
-  --custom CUSTOM       custom txt file
+--randint START STOP  random numbers from 0 to given range
+--custom CUSTOM       custom txt file
+```
