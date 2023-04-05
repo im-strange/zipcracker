@@ -25,19 +25,19 @@ python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
 ```
 
 ## Examples
-try with 1 million common passwords. 
+>try with 1 million common passwords. 
 ```
 python zipcracker.py --default target.zip
 ```
-random letters with 5 characters and try 1000 times. 
+>random letters with 5 characters and try 1000 times. 
 ```
 python zipcracker.py --randchar 5 1000 target.zip
 ```
-numbers from 0 to 1000.
+>numbers from 0 to 1000.
 ```
 python zipcracker.py --randint 0 1000 target.zip
 ```
-try with custom .txt file.
+>try with custom .txt file.
 ```
 python zipcracker.py --custom custom_list.txt target.zip
 ```
