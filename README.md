@@ -7,3 +7,9 @@ We need few python libraries
 pip install zipfile
 ```
 
+## Usage
+```
+usage: python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
+                            [--randint START STOP] [--custom CUSTOM]
+                            zipfile
+```
