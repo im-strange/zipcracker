@@ -8,9 +8,12 @@ pip install zipfile
 ```
 
 ## Usage
-> usage: python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
+```
+python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
                             [--randint START STOP] [--custom CUSTOM]
                             zipfile
+```
+
 ## Options
 ```
 -h, --help            show this help message and exit
