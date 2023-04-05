@@ -8,8 +8,7 @@ pip install zipfile
 ```
 
 ## Usage
-```
-usage: python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
+> usage: python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
                             [--randint START STOP] [--custom CUSTOM]
                             zipfile
-```
+
