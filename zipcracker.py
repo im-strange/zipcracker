@@ -53,7 +53,12 @@ parser = argparse.ArgumentParser(
 	add_help = True,
 	usage = None
 	)
+
+with open("version.txt", "r") as version_file:
+  version = version_file.readline()
+
 parser.add_argument("zipfile", help=".zip file to crack")
+parser.add_argument("--version", help="print version", action="version", version=version)
 parser.add_argument("-d","--default", help="1 million common passwords", action="store_true")
 parser.add_argument("--randchar", help="random letters of given length", type=int, nargs=2, metavar=("LENGTH","RANGE"))
 parser.add_argument("--randint", help="random numbers from 0 to given range", type=int, nargs=2, metavar=("START","STOP"))
