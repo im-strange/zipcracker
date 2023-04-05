@@ -17,6 +17,7 @@ python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
 ## Options
 ```
 -h, --help            show this help message and exit
+--version             print version
 -d, --default         1 million common passwords
 --randchar LENGTH RANGE
                       random letters of given length
