@@ -1,7 +1,7 @@
 # ZipCracker
 A powerful tool for unlocking zip file powered by Python.
 
-## Installing ZipCracker
+### Installation
 Prerequisite python module
 ```
 pip install zipfile
@@ -13,12 +13,14 @@ git clone https://github.com/im-strange/zipcracker
 ```
 
 To use `zipcracker` command instead of `python zipcracker.py`
-```
-cd zipcracker
-chmod +x setup.sh
-./setup.sh
-source ~/.bashrc
-```
+1. Go the directory
+```cd zipcracker```
+2. Change mode to executable
+```chmod +x setup.sh```
+3. Set up
+```./setup.sh```
+4. Reload the *.bashrc* file
+```source ~/.bashrc```
 
 ## Usage
 ```
