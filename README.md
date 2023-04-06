@@ -10,7 +10,7 @@ pip install zipfile
 ```
 
 &nbsp;  
-Installing through terminal
+Clone the repo
 ```
 git clone https://github.com/im-strange/zipcracker
 ```
@@ -36,7 +36,7 @@ git clone https://github.com/im-strange/zipcracker
 
 &nbsp;  
 ## Usage
-```
+```bash
 zipcracker [-h] [--version] [-d] [--randchar LENGTH RANGE]
                             [--randint START STOP] [--custom CUSTOM]
                             zipfile
