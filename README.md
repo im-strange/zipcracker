@@ -57,11 +57,20 @@ zipcracker [-h] [--version] [-d] [--randchar LENGTH RANGE]
 &nbsp;  
 ## Examples
 - Try with 1 million common passwords. 
-   `zipcracker --default target.zip`
+```
+zipcracker --default target.zip
+```
 - Random letters with 5 characters and try 1000 times. 
-   `zipcracker --randchar 5 1000 target.zip`
+```
+zipcracker --randchar 5 1000 target.zip
+```
 - Numbers from 0 to 1000.
-   `zipcracker --randint 0 1000 target.zip`
+```
+zipcracker --randint 0 1000 target.zip
+```
 - Try with custom .txt file.
-   `zipcracker --custom custom_list.txt target.zip`
+```
+zipcracker --custom custom_list.txt target.zip
+```
 
+&nbsp;   
