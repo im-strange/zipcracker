@@ -2,14 +2,27 @@
 A powerful tool for unlocking zip file powered by Python.
 
 ## Installing ZipCracker
-We need few python libraries
+Prerequisite python module
 ```
 pip install zipfile
 ```
 
+Installing through terminal
+```
+git clone https://github.com/im-strange/zipcracker
+```
+
+To use `zipcracker` command instead of `python zipcracker.py`
+```
+cd zipcracker
+chmod +x setup.sh
+./setup.sh
+source ~/.bashrc
+```
+
 ## Usage
 ```
-python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
+zipcracker [-h] [--version] [-d] [--randchar LENGTH RANGE]
                             [--randint START STOP] [--custom CUSTOM]
                             zipfile
 ```
@@ -28,19 +41,19 @@ python zipcracker.py [-h] [-d] [--randchar LENGTH RANGE]
 ## Examples
 Try with 1 million common passwords. 
 ```
-python zipcracker.py --default target.zip
+zipcracker --default target.zip
 ```
 Random letters with 5 characters and try 1000 times. 
 ```
-python zipcracker.py --randchar 5 1000 target.zip
+zipcracker --randchar 5 1000 target.zip
 ```
 Numbers from 0 to 1000.
 ```
-python zipcracker.py --randint 0 1000 target.zip
+zipcracker --randint 0 1000 target.zip
 ```
 Try with custom .txt file.
 ```
-python zipcracker.py --custom custom_list.txt target.zip
+zipcracker --custom custom_list.txt target.zip
 ```
 
 
