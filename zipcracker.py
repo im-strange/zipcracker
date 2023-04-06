@@ -55,7 +55,7 @@ parser = argparse.ArgumentParser(
 	)
 
 with open("version.txt", "r") as version_file:
-  version = version_file.readline()
+  version = version_file.read()
 
 parser.add_argument("zipfile", help=".zip file to crack")
 parser.add_argument("--version", help="print version", action="version", version=version)
