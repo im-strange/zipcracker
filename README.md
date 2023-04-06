@@ -14,13 +14,12 @@ Installing through terminal
 git clone https://github.com/im-strange/zipcracker
 ```
 
-<pre>
+<br>
 To use `zipcracker` command instead of `python zipcracker.py`
 1. Go the directory
 ```
 cd zipcracker
 ```
-</pre>
 2. Change mode to executable
 ```
 chmod +x setup.sh
