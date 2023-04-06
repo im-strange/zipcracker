@@ -74,4 +74,4 @@ zipcracker --custom custom_list.txt target.zip
 ```
 
 &nbsp;   
-Note : <tt>Use the repository's content only for legal and ethical purposes.</tt>
+Note : *Use the repository's content only for legal and ethical purposes.*
