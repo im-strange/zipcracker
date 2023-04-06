@@ -1,7 +1,7 @@
 # ZipCracker
 A powerful tool for unlocking zip file powered by Python.
 
-&nsbp;  
+&nbsp;  
 ## Installation
 
 Prerequisite python module
