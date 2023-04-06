@@ -14,13 +14,21 @@ git clone https://github.com/im-strange/zipcracker
 
 To use `zipcracker` command instead of `python zipcracker.py`
 1. Go the directory
-```cd zipcracker```
+```
+cd zipcracker
+```
 2. Change mode to executable
-```chmod +x setup.sh```
+```
+chmod +x setup.sh
+```
 3. Set up
-```./setup.sh```
+```
+./setup.sh
+```
 4. Reload the *.bashrc* file
-```source ~/.bashrc```
+```
+source ~/.bashrc
+```
 
 ## Usage
 ```
