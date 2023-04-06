@@ -66,7 +66,7 @@ zipcracker [-h] [--version] [-d] [--randchar LENGTH RANGE]
 `zipcracker --custom custom_list.txt target.zip`
 
 &nbsp;
-```c
+```python
 def myfunction():
   print("hello world")
 ```
