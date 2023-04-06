@@ -9,7 +9,8 @@ pip install zipfile
 ```
 
 Installing through terminal
-&nbsp;```
+&nbsp;
+```
 git clone https://github.com/im-strange/zipcracker
 ```
 
