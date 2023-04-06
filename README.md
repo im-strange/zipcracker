@@ -17,7 +17,7 @@ git clone https://github.com/im-strange/zipcracker
 
 &nbsp;   
 *To use* `zipcracker` *command instead of* `python zipcracker.py`
-1. Go the directory - 
+1. Go the directory 
 ```
 cd zipcracker
 ```
