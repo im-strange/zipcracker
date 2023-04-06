@@ -14,7 +14,7 @@ Installing through terminal
 git clone https://github.com/im-strange/zipcracker
 ```
 
-<br>
+&nbsp;   
 To use `zipcracker` command instead of `python zipcracker.py`
 1. Go the directory
 ```
