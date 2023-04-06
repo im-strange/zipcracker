@@ -1,6 +1,7 @@
 # ZipCracker
 A powerful tool for unlocking zip file powered by Python.
 
+&nsbp;  
 ## Installation
 
 Prerequisite python module
@@ -65,7 +66,7 @@ zipcracker [-h] [--version] [-d] [--randchar LENGTH RANGE]
 `zipcracker --custom custom_list.txt target.zip`
 
 &nbsp;
-```text
+```c
 def myfunction():
   print("hello world")
 ```
